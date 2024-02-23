@@ -1,4 +1,4 @@
-# RecruitmentTaskOne
+# IntegerBasicMeasurements
 
 A simple Java application that returns basic measurements of a given list of integers.
 
