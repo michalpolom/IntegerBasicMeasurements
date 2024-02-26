@@ -4,7 +4,7 @@ A simple Java application that returns basic measurements of a given list of int
 
 ## Task description
 
-Task description: The input is a long list of integers. Please write a small app that will output the list of distinct elements sorted in ascending order, plus the basic measurement information that contains the number of elements in the source, number of distinct elements, min and max value.
+The input is a long list of integers. Please write a small app that will output the list of distinct elements sorted in ascending order, plus the basic measurement information that contains the number of elements in the source, number of distinct elements, min and max value.
 
 ## How it works?
 
@@ -29,7 +29,8 @@ min: 1
 max: 5
 ```
 
-When you pass a non-integer argument in return you recive
+### Exceptions
+When you pass a non-integer argument in return you receive
 ```
 ERROR: At least one of the argument is not an Integer (min=-2147483648, max=2147483647)
 ```

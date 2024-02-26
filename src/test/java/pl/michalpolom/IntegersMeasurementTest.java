@@ -48,7 +48,7 @@ class IntegersMeasurementTest {
     }
 
     @Test
-    void shouldReturnError() {
+    void shouldReturnError_whenInputIsNotAListOfNumbers() {
         IntegersMeasurement.main(new String[]{"1", "2", "A", "."});
 
         String output = "ERROR: At least one of the argument is not an Integer (min=-2147483648, max=2147483647)";
